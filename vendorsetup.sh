@@ -1,0 +1,3 @@
+add_lunch_combo full_4034X-user
+add_lunch_combo full_4034X-userdebug
+add_lunch_combo full_4034X-eng
