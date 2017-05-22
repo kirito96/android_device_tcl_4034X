@@ -14,7 +14,8 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := 4034X,hct6580_weg_c_m,Pixi4-4
+# TARGET_OTA_ASSERT_DEVICE := 4034X,hct6580_weg_c_m,Pixi4-4
+# moved (and changed) to BoardConfig.mk
 
 # System ver
 PRODUCT_COPY_FILES += \
