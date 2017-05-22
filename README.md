@@ -4,4 +4,4 @@ This was forked from a similar device (5010D), and changed to the correct screen
 
 This was specifically designed for the 4034X model, with sd card, 1/2gb ram, 4gb storage, etc, to while it should work for all Alcatel Pixi 4 (4) models, it may not/ all features may not
 
-currently, building the whole rom isn't working, so feel free to try and help fix this, but i have successfully built recovery using this.
+currently, flashing the whole rom isn't working, so feel free to try and help fix this, but i hope i have fixed it with my TARGET_OTA_ASSERT_DEVICE commits. If you device isn't working, feel free to add yours here.
