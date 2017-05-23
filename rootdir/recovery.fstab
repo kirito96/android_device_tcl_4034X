@@ -4,15 +4,15 @@
 
 #<src>          <mnt_point>        <type>       <mnt_flags and options>       <fs_mgr_flags>
 
-/dev/block/platform/mtk-msdc.0/by-name/boot      /boot             emmc         defaults                     defaults
-/dev/block/platform/mtk-msdc.0/by-name/nvram        /nvram            emmc         defaults                     defaults
-/dev/block/platform/mtk-msdc.0/by-name/recovery     /recovery         emmc         defaults                     defaults
+/dev/block/mmcblk0p8                            /boot             emmc         defaults                     defaults
+/dev/block/mmcblk0p2                            /nvram            emmc         defaults                     defaults
+/dev/block/mmcblk0p9                            /recovery         emmc         defaults                     defaults
 
-/dev/block/mmcblk0p19                            /system       ext4      ro,noatime          wait
-/dev/block/mmcblk0p20                            /cache        ext4      noatime,nosuid,nodev,noauto_da_alloc     wait
-/dev/block/mmcblk0p21                            /data               ext4      noatime,nosuid,nodev,noauto_da_alloc    wait,check,encryptable=footer
-/dev/block/mmcblk0p3                             /protect_f          ext4      noatime,nosuid,nodev,noauto_da_alloc    wait,check
-/dev/block/mmcblk0p4                             /protect_s          ext4      noatime,nosuid,nodev,noauto_da_alloc    wait,check
+/dev/block/mmcblk0p19                           /system       ext4      ro,noatime          wait
+/dev/block/mmcblk0p20                           /cache        ext4      noatime,nosuid,nodev,noauto_da_alloc     wait
+/dev/block/mmcblk0p21                           /data               ext4      noatime,nosuid,nodev,noauto_da_alloc    wait,check,encryptable=footer
+/dev/block/mmcblk0p3                            /protect_f          ext4      noatime,nosuid,nodev,noauto_da_alloc    wait,check
+/dev/block/mmcblk0p4                            /protect_s          ext4      noatime,nosuid,nodev,noauto_da_alloc    wait,check
 
 # vold-managed volumes
 /devices/platform/mtk-msdc.0/mmc_host/mmc0      auto     auto    defaults voldmanaged=sdcard0:16
