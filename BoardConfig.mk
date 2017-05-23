@@ -54,6 +54,9 @@ BOARD_MKBOOTIMG_ARGS := --base 0x80000000 --pagesize 2048 --kernel_offset 0x0000
 TARGET_KMODULES := true
 # Disable memcpy opt (for audio libraries)
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
+TARGET_KERNEL_SOURCE := kernel/tcl/4034X
+TARGET_KERNEL_CONFIG := pixi4_4_defconfig
+
 
 # Display
 USE_OPENGL_RENDERER := true
@@ -140,7 +143,3 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # SELinux
 BOARD_SEPOLICY_DIRS := \
        device/tcl/4034X/sepolicy
-
-# by me
-#kernel stuff
-TARGET_KERNEL_CONFIG := pixi4_4_defconfig
