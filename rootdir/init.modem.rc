@@ -17,8 +17,8 @@ on post-fs-data
     # begin add by zhangjianping add for sim_lock hzy_secro modify the path 20150511
     mkdir /data/nvram/md/s 0600 system system
     #begin change by lixiang.he for task 980437 on 20151125
-    mount  ext4 /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/secro /data/nvram/md/s wait noauto_da_alloc
-    mount  ext4 /dev/block/platform/mtk-msdc.0/11120000.msdc0/by-name/secro /data/nvram/md/s ro remount wait
+    mount  ext4 /dev/block/mmcblk0p11 /data/nvram/md/s wait noauto_da_alloc
+    mount  ext4 /dev/block/mmcblk0p11 /data/nvram/md/s ro remount wait
     #end change by lixiang.he for task 980437 on 20151125
     # end add by zhangjianping add for sim_lock hzy_secro modify the path 20150511   
 
