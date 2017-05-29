@@ -51,8 +51,8 @@ TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
 TARGET_KMODULES := true
 # Disable memcpy opt (for audio libraries)
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
-TARGET_KERNEL_SOURCE := kernel/tcl/4034X
-TARGET_KERNEL_CONFIG := pixi4_4_defconfig
+#TARGET_KERNEL_SOURCE := kernel/tcl/4034X
+#TARGET_KERNEL_CONFIG := pixi4_4_defconfig
 
 
 # Display
